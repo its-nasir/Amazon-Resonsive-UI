@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1vw;
+}
+body{
+    overflow-x: hidden;
+}
+.stop-main{
+    position: sticky;
+}
+.amzn img{
+    width: 5rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+.item{
+    color: white;
+    margin-left: 2rem;
+    padding: 0; 
+}
+.search-all img{
+    width: 2.2rem;
+    position: absolute;
+    border-radius: 0 .2rem .2rem 0;
+    bottom: 1rem;
+    right: 20.rem;
+}
+.search{
+    margin-left: 2rem;
+}
+.search-all input{
+    outline: none;
+   padding: .2rem;
+   width: 60rem;
+   border: none; 
+}
+.all{
+    font-size: .5rem;
+    border-radius: 10%;
+    width: 3rem;
+    padding: .7rem;
+    border: none;  
+}
+.txt-1{
+    font-size: .6rem; 
+}
+.tx1{
+    font-size: 1rem; 
+}
+.city{
+    margin-left: 3rem;
+}
+.city select{
+    border: none;
+    width: 2.3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+.img-2{
+    width: 1rem;
+}
+.sign{
+    font-size: .7rem;
+    margin-left: 1rem;
+}
+.sign-top{
+    position: absolute;
+    top: 1.7rem;
+    right: 11rem;
+    padding: .2rem;
+    border: none
+}
+.orders p{
+    font-size: .7rem;
+    margin-left:2rem; 
+}
+.cart img{
+    width: 2.6rem;
+}
+.s-cart{
+    font-size: .8rem;
+    position: absolute;
+    right: 2.3rem;
+    top: 1.8rem;
+}
+.menu img{
+    width: 1rem; 
+}
+.menu{
+    background-color: rgb(88, 45, 45);
+    font-size: .8rem;
+    text-align: center;
+    justify-content: space-around; 
+}
+.block-1{
+    gap: 2rem;
+}
+.card{
+    box-shadow: 0px 10px 30px #00000020;
+}
+.shape{
+    padding: 1rem 1rem;   
+}
+.exp{
+    text-align: center;
+}
+.line-1{
+    flex-direction: column;
+    padding: 2rem 0 0 0; 
+}
+.img-scrol,
+.scrl-1::-webkit-scrollbar {
+display: none;
+}
+.img-scrol::-webkit-scrollbar{
+    display: none;
+}
+.stop-main{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.for-p{
+    cursor: pointer;
+}
+.footer-1{
+    text-align: center;
+    margin: 1rem 0;
+    font-size: .7rem;
+}
+.in-1{
+    width: 15rem;
+    background-color: orange;
+    border-radius: .2rem .2rem;
+    border: none;
+}
+.back-top{
+    justify-content: center;
+    padding: .1rem 0;
+    background-color:#475a5a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
