@@ -1,0 +1,229 @@
+@media (max-width: 800px) {
+  .shape {
+    width: 44rem;
+  }
+
+  /* top slider  */
+
+  .sp-1 {
+    width: 87px;
+  }
+  .sp-2 {
+    width: 27rem;
+  }
+  .sp1 {
+    width: 12rem;
+  }
+  .sp2 {
+    width: 38rem;
+  }
+  .sp3 {
+    width: 127px;
+  }
+
+  /* 2nd slider  */
+
+  .b1 {
+    width: 49rem;
+  }
+  .b2 {
+    width: 24rem;
+  }
+  .b3 {
+    width: 36rem;
+  }
+  .b4 {
+    width: 46rem;
+  }
+  .b5 {
+    width: 27rem;
+  }
+
+  .b8 {
+    width: 28rem;
+  }
+  .b9,
+  .b6 {
+    width: 38rem;
+  }
+
+  /* books */
+  .bk1 {
+    width: 32rem;
+  }
+  .bk2 {
+    width: 36rem;
+  }
+  .bk3 {
+    width: 36rem;
+  }
+  .bk4 {
+    width: 36.5rem;
+  }
+  .bk5 {
+    width: 40.5rem;
+  }
+  .bk6 {
+    width: 42rem;
+  }
+  .bk7 {
+    width: 35rem;
+  }
+
+  /* tools  */
+  .t3 {
+    width: 22rem;
+  }
+  .t5 {
+    width: 30rem;
+  }
+  .t6 {
+    width: 30rem;
+  }
+
+  /* oil  */
+  .o1 {
+    width: 29rem;
+  }
+  .o2 {
+    width: 32rem;
+  }
+  .o3,
+  .o4 {
+    width: 29rem;
+  }
+  .o5 {
+    width: 49rem;
+    margin-top: 12rem;
+  }
+  .o6 {
+    width: 37rem;
+  }
+  .o8 {
+    width: 18rem;
+  }
+  .o9 {
+    width: 39rem;
+  }
+  .tt {
+    width: 20rem;
+  }
+
+  /* speackers */
+  .t1 {
+    width: 38rem;
+  }
+  .t2 {
+    margin-top: 11rem;
+    width: 40rem;
+  }
+  .r3 {
+    width: 34rem;
+  }
+  .r4 {
+    width: 26rem;
+  }
+  .r5 {
+    width: 37rem;
+  }
+  .r6 {
+    width: 20rem;
+  }
+  .r7 {
+    width: 19rem;
+  }
+  .r9 {
+    width: 25rem;
+  }
+  .r10 {
+    width: 28rem;
+  }
+  .img-scrol::-webkit-scrollbar {
+    display: none;
+  }
+  .img-scrol {
+    overflow: scroll;
+    font-size: 2rem;
+    gap: 2.3rem;
+
+    align-items: center;
+  }
+  .sign,
+  .orders,
+  .item,
+  .expm1,
+  .hd1,
+  .hide-1,
+  .amazon,
+  .city select {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    margin: 0 0;
+  }
+  .cart img {
+    margin-left: 2rem;
+    width: 6.6rem;
+  }
+  .s-cart {
+    font-size: 1.8rem;
+    position: absolute;
+    right: 3.3rem;
+    top: 4.1rem;
+  }
+  .search {
+    margin-left: 6rem;
+  }
+  .search-all input {
+    margin: 0rem 0 0 0;
+    outline: none;
+    padding: 1.2rem;
+    width: 52rem;
+    /* border: none; */
+  }
+  .search-all img {
+    width: 4.1rem;
+    position: absolute;
+    border-radius: 0 0.2rem 0.2rem 0;
+    bottom: 2.4rem;
+    right: 20rem;
+  }
+  .all {
+    font-size: 1.5rem;
+    border-radius: 10%;
+    width: 7rem;
+    padding: 0.7rem;
+    border: none;
+  }
+  .amzn img {
+    width: 13rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+  }
+  .lf {
+    padding: 0 0 2rem 0;
+    font-size: 1.5rem;
+  }
+  .lst-ft {
+    padding: 10rem 0 0 0;
+    font-size: 0.6rem;
+    width: 100.7rem;
+  }
+  .about-nav p{
+      font-size: 2rem;  
+  }
+  .eng-size{
+      width: 2rem;
+  }
+  .lang select {
+      margin-left: -9rem;
+      border: none;
+    font-size: 2.8rem;
+    padding: 2.4rem;
+    color: white;
+    background-color: #232F3E;
+}
+  
+  
+  
+}
