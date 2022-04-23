@@ -223,27 +223,51 @@
   .about-nav {
     justify-content: space-around;
     margin: 3rem 0rem;
-}
-.sp1 {
-  padding: 7px 2rem;
-  width: 17rem;
-}
-  p,span,a{
+  }
+  .sp1 {
+    padding: 7px 2rem;
+    width: 17rem;
+  }
+  p,
+  span,
+  a {
     font-size: 2.5rem;
   }
+  .z1 {
+    top: 26rem;
+  }
+  .z2 {
+    top: 22.5rem;
+  }
+  .z3 {
+    top: 26rem;
+  }
+  .x1 {
+    top: 36.5rem;
+  }
+  .x3 {
+    top: 37.5rem;
+  }
+  .x4 {
+    top: 37.5rem;
+  }
+  .ss1 {
+    top: 36.5rem;
+  }
+  .ss2 {
+    top: 29.4rem;
+  }
+  .ss3 {
+    top: 21.4rem;
+  }
 }
-
-@media(max-with:415px){
+@media (max-width: 415px) {
   .search-all img {
     width: 4.1rem;
     position: absolute;
     border-radius: 0 0.2rem 0.2rem 0;
     bottom: 2.2rem;
     right: 20rem;
+  }
 }
-}
-
-
-
-
 
