@@ -1,310 +1,298 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html {
-    font-size: 1vw;
-  }
-  body {
-    height: 100vh;
-    overflow-x: hidden;
-  }
-  .stop-main {
-    position: sticky;
-  }
-  .amzn img {
-    width: 5rem;
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-  }
-  .item {
-    color: white;
-    margin-left: 2rem;
-    padding: 0;
-  }
-  .search-all img {
-    width: 2.2rem;
-    position: absolute;
-    border-radius: 0 0.2rem 0.2rem 0;
-    bottom: 1rem;
-    right: 20rem;
-  }
-  .search-all {
-    background-color: white;
-  }
-  .search {
-    margin-left: 2rem;
-  }
-  .search-all input {
-    outline: none;
-    padding: 0.2rem;
-    width: 60rem;
-    border: none;
-  }
-  .all {
-    font-size: 0.5rem;
-    border-radius: 10%;
-    width: 3rem;
-    padding: 0.7rem;
-    border: none;
-  }
-  .txt-1 {
-    font-size: 0.6rem;
-  }
-  .tx1 {
-    font-size: 1rem;
-  }
-  .city {
-    margin-left: 3rem;
-  }
-  .city select {
-    border: none;
-    width: 2.3rem;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-  }
-  .img-2 {
-    width: 1rem;
-  }
-  .sign {
-    font-size: 0.7rem;
-    margin-left: 1rem;
-  }
-  .sign-top {
-    position: absolute;
-    top: 1.7rem;
-    right: 11rem;
-    padding: 0.2rem;
-    border: none;
-  }
-  .orders p {
-    font-size: 0.7rem;
-    margin-left: 2rem;
-  }
-  .cart img {
-    width: 2.6rem;
-  }
-  .s-cart {
-    font-size: 0.8rem;
-    position: absolute;
-    right: 2.3rem;
-    top: 1.8rem;
-  }
-  .menu img {
-    width: 1rem;
-  }
-  .menu {
-    background-color: rgb(88, 45, 45);
-    font-size: 0.8rem;
-    text-align: center;
-    justify-content: space-around;
-  }
-  .block-1 {
-    gap: 2rem;
-  }
-  .card {
-    box-shadow: 0px 10px 30px #00000020;
-  }
-  .shape {
-    padding: 1rem 1rem;
-  }
-  .exp {
-    text-align: center;
-  }
-  .line-1 {
-    flex-direction: column;
-    padding: 2rem 0 0 0;
-  }
-  .stop-main {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  }
-  .for-p {
-    cursor: pointer;
-  }
-  .footer-1 {
-    text-align: center;
-    font-size: 0.7rem;
-  }
-  .in-1 {
-    width: 15rem;
-    background-color: orange;
-    border-radius: 0.2rem 0.2rem;
-    border: none;
-  }
-  .back-top {
-    justify-content: center;
-    padding: 0.1rem 0;
-    background-color: #475a5a;
-  }
-  .first-nav {
-    color: white;
-    background-color: #232f3e;
-  }
-  .first-nav p {
-    font-size: 0.7rem;
-  }
-  .first-nav strong {
-    font-size: 0.9rem;
-  }
-  .about-nav {
-    justify-content: space-around;
-    margin: 3rem 19rem;
-  }
-  .lang img {
-    margin-top: 0.5rem;
-    width: 4rem;
-  }
-  .lang {
-    padding: 2rem 0 0.1rem 0;
-    gap: 2rem;
-    justify-content: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.075);
-  }
-  .lang select {
-    font-size: 0.8rem;
-    padding: 0.4rem;
-    color: white;
-    background-color: #232f3e;
-  }
-  .lst-ft {
-    padding: 3rem;
-    font-size: 0.6rem;
-    color: white;
-    background-color: #131a22;
-  }
-  .fz {
-    font-size: 0.5rem;
-  }
-  .lf {
-    color: white;
-    text-align: center;
-    padding: 3rem 0 0 0;
-    font-size: 0.7rem;
-  }
-  .main-p {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-    margin: 0 0;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 1vw;
+}
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+.stop-main {
+  position: sticky;
+}
+.amzn img {
+  width: 5rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.item {
+  color: white;
+  margin-left: 2rem;
+  padding: 0;
+}
+.search-all img {
+  width: 2.2rem;
+  position: absolute;
+  border-radius: 0 0.2rem 0.2rem 0;
+  bottom: 1rem;
+  right: 22rem;
+}
+.search-all {
+  background-color: white;
+}
+.search {
+  margin-left: 2rem;
+}
+.search-all input {
+  outline: none;
+  padding: 0.2rem;
+  width: 60rem;
+  border: none;
+}
+.all {
+  font-size: 0.5rem;
+  border-radius: 10%;
+  width: 3rem;
+  padding: 0.7rem;
+  border: none;
+}
+.txt-1 {
+  font-size: 0.6rem;
+}
+.tx1 {
+  font-size: 1rem;
+}
+.city {
+  margin-left: 3rem;
+}
+.city select {
+  border: none;
+  width: 2.3rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.img-2 {
+  width: 1rem;
+}
+.sign {
+  font-size: 0.7rem;
+  margin-left: 1rem;
+}
+.sign-top {
+  position: absolute;
+  top: 1.7rem;
+  right: 11rem;
+  padding: 0.2rem;
+  border: none;
+}
+.orders p {
+  font-size: 0.7rem;
+  margin-left: 2rem;
+}
+.cart img {
+  width: 2.6rem;
+}
+.s-cart {
+  font-size: 0.8rem;
+  position: absolute;
+  right: 2.3rem;
+  top: 1.8rem;
+}
+.menu img {
+  width: 1rem;
+}
+.menu {
+  background-color: rgb(88, 45, 45);
+  font-size: 0.8rem;
+  text-align: center;
+  justify-content: space-around;
+}
+.block-1 {
+  gap: 2rem;
+}
+.card {
+  box-shadow: 0px 10px 30px #00000020;
+}
+.shape {
+  padding: 1rem 1rem;
+}
+.exp {
+  text-align: center;
+}
 
-  .scrl-1::-webkit-scrollbar {
-    display: none;
-  }
+.line {
+  padding-bottom: 2rem;
+}
 
-  /* text position set  */
-  .exam {
-    position: relative;
-  }
+.line-1 {
+  flex-direction: column;
+  padding: 1rem 0 0 0;
+}
+.stop-main {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.for-p {
+  cursor: pointer;
+}
+.footer-1 {
+  text-align: center;
+  font-size: 0.7rem;
+}
+.in-1 {
+  width: 15rem;
+  background-color: orange;
+  border-radius: 0.2rem 0.2rem;
+  border: none;
+}
+.back-top {
+  justify-content: center;
+  /* padding: 0.1rem 0; */
+  padding: 1rem 0;
+  color: white;
+  /* border: none; */
+  background-color: #475a5a;
+}
+.back-top a {
+  font-size: 0.7 rem;
+  color: white;
+  border: none;
+  text-decoration: underline;
+}
 
+.first-nav {
+  color: white;
+  background-color: #232f3e;
+}
+.first-nav p {
+  font-size: 0.7rem;
+}
+.first-nav strong {
+  font-size: 0.9rem;
+}
+.about-nav {
+  justify-content: space-around;
+  margin: 3rem 19rem;
+}
+.lang img {
+  margin-top: 0.5rem;
+  width: 4rem;
+}
+.lang {
+  padding: 2rem 0 0.1rem 0;
+  gap: 2rem;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.075);
+}
+.lang select {
+  font-size: 0.8rem;
+  padding: 0.4rem;
+  color: white;
+  background-color: #232f3e;
+}
+.lst-ft {
+  padding: 3rem;
+  font-size: 0.6rem;
+  color: white;
+  background-color: #131a22;
+}
+.fz {
+  font-size: 0.5rem;
+}
+.lf {
+  color: white;
+  text-align: center;
+  padding: 3rem 0 0 0;
+  font-size: 0.7rem;
+}
+.main-p {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  margin: 0 0;
+}
+.scrl-1::-webkit-scrollbar {
+  display: none;
+}
+/* text position set  */
+.exam {
+  position: relative;
+}
+.all-in1 {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+.pp {
+  bottom: 2rem;
+  left: 2rem;
+}
+/* 4nd for block  */
+.first1 {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+/* no  */
 
-  
-  .all-in1 {
-    position: absolute;
-    bottom: 2rem;
-    left: 2rem;
-  }
-  .pp {
-    bottom: 2rem;
-    left: 2rem;
-  }
-  /* .ur1{
-      position: absolute;
-      bottom: 2rem;
-    left: 2rem;
-  } */
-  
-  /* 4nd for block  */
-  .first1{
-      position: absolute;
-     bottom: 2rem; 
-     left: 2rem;
-  }
-  
-  /* no  */
-  
-  .fst-2{
-      position: absolute;
-      bottom: 2rem;
-      left: 2rem;
-  }
-  
-  .fst-3{
-      position: absolute;
-      bottom: 2rem;
-      left: 2rem;  
-  }
-  /* .fst-4{
-      position: absolute;
-      top: 10.5rem;
-      left: 2rem; 
-  } */
-  
-  /* 3rd 4 box  */
-  .z1{
-      position: absolute;
-      top: 16rem;
-      left: 1rem;
-  }
-  .z2{
-      position: absolute;
-      top: 14.5rem;
-      left: 1rem;
-  }
-  .z3{
-      position: absolute;
-      top: 16rem;
-      left: 1rem;
-  }
-  .z4{
-      /* position: absolute;
-      top: 16rem;
-      left: 1rem; */
-  }
-  
-  /* 4th 4 box  */
-  .x1{
-      position: absolute;
-      top: 20.5rem;
-      left: 1rem;
-  }
-  /* .x2{
-      position: absolute;
-       top: 20rem;
-       left: 1rem;
-  } */
-  .x3{
-      position: absolute;
-       top: 20.5rem;
-       left: 1rem;
-  }
-  .x4{
-      position: absolute;
-      top: 20.5rem;
-      left: 1rem;
-  }
-   /* 4 box  */
-  .ss1{
-      position: absolute;
-      top: 16.5rem;
-      left: 1rem;  
-  }
-  .ss2{
-     position: absolute;
-     top: 13.4rem;
-      left: 1rem;  
-  }
-  .ss3{
-      position: absolute;
-     top: 10.4rem;
-      left: 1rem;
-  }
-  /* .ss4{
-      position: absolute;
-     top: 10.4rem;
-      left: 1rem;
-  } */
-  
+.fst-2 {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+.fst-3 {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+/* 3rd 4 box  */
+.z1 {
+  position: absolute;
+  top: 16rem;
+  left: 1rem;
+}
+.z2 {
+  position: absolute;
+  top: 14.5rem;
+  left: 1rem;
+}
+.z3 {
+  position: absolute;
+  top: 16rem;
+  left: 1rem;
+}
+/* 4th 4 box  */
+.x1 {
+  position: absolute;
+  top: 20.5rem;
+  left: 1rem;
+}
+.x3 {
+  position: absolute;
+  top: 20.5rem;
+  left: 1rem;
+}
+.x4 {
+  position: absolute;
+  top: 20.5rem;
+  left: 1rem;
+}
+.ss1 {
+  position: absolute;
+  top: 16.5rem;
+  left: 1rem;
+}
+.ss2 {
+  position: absolute;
+  top: 13.4rem;
+  left: 1rem;
+}
+.ss3 {
+  position: absolute;
+  top: 10.4rem;
+  left: 1rem;
+}
+.sp1 {
+  padding: 0.4rem 2rem;
+  width: 9rem;
+}
+.using {
+  font-size: 0.7rem;
+}
+a{
+  text-decoration: none !important;
+}
