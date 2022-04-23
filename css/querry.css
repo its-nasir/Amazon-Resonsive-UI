@@ -261,7 +261,7 @@
     top: 21.4rem;
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 427px) {
   .search-all img {
     width: 4.4rem;
     position: absolute;
