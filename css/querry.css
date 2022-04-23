@@ -263,10 +263,10 @@
 }
 @media (max-width: 415px) {
   .search-all img {
-    width: 4.1rem;
+    width: 4.4rem;
     position: absolute;
     border-radius: 0 0.2rem 0.2rem 0;
-    bottom: 2.2rem;
+    bottom: 2rem;
     right: 20rem;
   }
 }
